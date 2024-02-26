@@ -14,7 +14,7 @@ const app = express();
 
 //connect to database
 
-const dbURI = 'mongodb+srv://sdev255:password255@sdev255.1xd7ayx.mongodb.net/?retryWrites=true&w=majority';
+const dbURI = 'mongodb+srv://Sdev255:Final1234@cluster0.bh905qd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((result) => app.listen(3000))
   .catch((err) => console.log(err));
